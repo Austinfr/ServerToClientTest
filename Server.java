@@ -11,6 +11,8 @@ public class Server{
     private DataInputStream in = null;
     
     public Server(int port){
+		
+		//create a server
         
         try{
             server = new ServerSocket(port);
