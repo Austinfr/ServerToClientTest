@@ -27,6 +27,7 @@ public class ClientToServer {
         
         String line = "";
         
+		//while loop to read text input
         while(!line.equals("over")){
             try{
                 line = inputStream.readLine();
